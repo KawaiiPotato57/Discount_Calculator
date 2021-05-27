@@ -12,7 +12,7 @@ function record ({route, navigation }) {
 const clearRecord =(key)=>{
   data=data.filter(item=>item.key!=key)
   setList(data);
-}
+} //checks key and filters form the list
 
 
 const clear =()=>{
